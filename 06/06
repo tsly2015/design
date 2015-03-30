@@ -1,0 +1,21 @@
+g++ -c -o obj/RandomMain1.o RandomMain1.cpp -Iinclude
+g++ -c -o obj/PayOff3.o PayOff3.cpp -Iinclude
+g++ -c -o obj/Random1.o Random1.cpp -Iinclude
+g++ -c -o obj/SimpleMC7.o SimpleMC7.cpp -Iinclude
+g++ -c -o obj/Vanilla3.o Vanilla3.cpp -Iinclude
+g++ -c -o obj/PayOffBridge.o PayOffBridge.cpp -Iinclude
+g++ -c -o obj/Parameters.o Parameters.cpp -Iinclude
+g++ -c -o obj/MCStatistics.o MCStatistics.cpp -Iinclude
+g++ -c -o obj/ConvergenceTable.o ConvergenceTable.cpp -Iinclude
+g++ -o exe1 obj/RandomMain1.o obj/PayOff3.o obj/Random1.o obj/SimpleMC7.o obj/Vanilla3.o obj/PayOffBridge.o obj/Parameters.o obj/MCStatistics.o obj/ConvergenceTable.o -Iinclude
+g++ -c -o obj/RandomMain3.o RandomMain3.cpp -Iinclude
+g++ -c -o obj/Random2.o Random2.cpp -Iinclude
+g++ -c -o obj/SimpleMC8.o SimpleMC8.cpp -Iinclude
+g++ -c -o obj/Arrays.o Arrays.cpp -Iinclude
+g++ -c -o obj/Normals.o Normals.cpp -Iinclude
+g++ -c -o obj/ParkMiller.o ParkMiller.cpp -Iinclude
+g++ -c -o obj/AntiThetic.o AntiThetic.cpp -Iinclude
+g++ -o exe2 obj/RandomMain3.o obj/PayOff3.o obj/Random2.o obj/SimpleMC8.o obj/Vanilla3.o obj/PayOffBridge.o obj/Parameters.o obj/MCStatistics.o obj/ConvergenceTable.o obj/Arrays.o obj/Normals.o obj/ParkMiller.o obj/AntiThetic.o -Iinclude
+g++ -c -o obj/RandomMain2.o RandomMain2.cpp -Iinclude
+g++ -c -o obj/Random3.o Random3.cpp -Iinclude
+g++ -o exe3 obj/RandomMain2.o obj/PayOff3.o obj/Random2.o obj/Random3.o obj/SimpleMC8.o obj/Vanilla3.o obj/PayOffBridge.o obj/Parameters.o obj/MCStatistics.o obj/ConvergenceTable.o obj/Arrays.o obj/Normals.o obj/AntiThetic.o -Iinclude

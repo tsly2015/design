@@ -1,0 +1,12 @@
+g++ -c -o obj/StatsMain1.o StatsMain1.cpp -Iinclude
+g++ -c -o obj/PayOff3.o PayOff3.cpp -Iinclude
+g++ -c -o obj/Random1.o Random1.cpp -Iinclude
+g++ -c -o obj/SimpleMC7.o SimpleMC7.cpp -Iinclude
+g++ -c -o obj/Vanilla3.o Vanilla3.cpp -Iinclude
+g++ -c -o obj/PayOffBridge.o PayOffBridge.cpp -Iinclude
+g++ -c -o obj/Parameters.o Parameters.cpp -Iinclude
+g++ -c -o obj/MCStatistics.o MCStatistics.cpp -Iinclude
+g++ -o exe1 obj/StatsMain1.o obj/PayOff3.o obj/Random1.o obj/SimpleMC7.o obj/Vanilla3.o obj/PayOffBridge.o obj/Parameters.o obj/MCStatistics.o -Iinclude
+g++ -c -o obj/StatsMain2.o StatsMain2.cpp -Iinclude
+g++ -c -o obj/ConvergenceTable.o ConvergenceTable.cpp -Iinclude
+g++ -o exe2 obj/StatsMain2.o obj/PayOff3.o obj/Random1.o obj/SimpleMC7.o obj/Vanilla3.o obj/PayOffBridge.o obj/Parameters.o obj/MCStatistics.o obj/ConvergenceTable.o -Iinclude

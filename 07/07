@@ -1,0 +1,16 @@
+g++ -c -o obj/EquityFXMain.o EquityFXMain.cpp -Iinclude
+g++ -c -o obj/PayOff3.o PayOff3.cpp -Iinclude
+g++ -c -o obj/Random2.o Random2.cpp -Iinclude
+g++ -c -o obj/PayOffBridge.o PayOffBridge.cpp -Iinclude
+g++ -c -o obj/Parameters.o Parameters.cpp -Iinclude
+g++ -c -o obj/MCStatistics.o MCStatistics.cpp -Iinclude
+g++ -c -o obj/ConvergenceTable.o ConvergenceTable.cpp -Iinclude
+g++ -c -o obj/Arrays.o Arrays.cpp -Iinclude
+g++ -c -o obj/Normals.o Normals.cpp -Iinclude
+g++ -c -o obj/ParkMiller.o ParkMiller.cpp -Iinclude
+g++ -c -o obj/AntiThetic.o AntiThetic.cpp -Iinclude
+g++ -c -o obj/PathDependent.o PathDependent.cpp -Iinclude
+g++ -c -o obj/PathDependentAsian.o PathDependentAsian.cpp -Iinclude
+g++ -c -o obj/ExoticEngine.o ExoticEngine.cpp -Iinclude
+g++ -c -o obj/ExoticBSEngine.o ExoticBSEngine.cpp -Iinclude
+g++ -o exe obj/EquityFXMain.o obj/PayOff3.o obj/Random2.o obj/PayOffBridge.o obj/Parameters.o obj/MCStatistics.o obj/ConvergenceTable.o obj/Arrays.o obj/Normals.o obj/ParkMiller.o obj/AntiThetic.o obj/PathDependent.o obj/PathDependentAsian.o obj/ExoticEngine.o obj/ExoticBSEngine.o -Iinclude

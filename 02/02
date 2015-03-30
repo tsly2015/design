@@ -1,0 +1,7 @@
+g++ -c -o obj/SimpleMCMain1.o SimpleMCMain1.cpp -Iinclude
+g++ -c -o obj/Random1.o Random1.cpp -Iinclude
+g++ -o exe1 obj/SimpleMCMain1.o obj/Random1.o -Iinclude
+g++ -c -o obj/SimpleMCMain2.o SimpleMCMain2.cpp -Iinclude
+g++ -c -o obj/PayOff1.o PayOff1.cpp -Iinclude
+g++ -c -o obj/SimpleMC.o SimpleMC.cpp -Iinclude
+g++ -o exe2 obj/SimpleMCMain2.o obj/PayOff1.o obj/Random1.o obj/SimpleMC.o -Iinclude

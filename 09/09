@@ -1,0 +1,8 @@
+g++ -c -o obj/SolveMain1.o SolveMain1.cpp -Iinclude
+g++ -c -o obj/Normals.o Normals.cpp -Iinclude
+g++ -c -o obj/BlackScholesFormulas.o BlackScholesFormulas.cpp -Iinclude
+g++ -c -o obj/BSCallClass.o BSCallClass.cpp -Iinclude
+g++ -o exe1 obj/SolveMain1.o obj/Normals.o obj/BlackScholesFormulas.o obj/BSCallClass.o -Iinclude
+g++ -c -o obj/SolveMain2.o SolveMain2.cpp -Iinclude
+g++ -c -o obj/BSCallTwo.o BSCallTwo.cpp -Iinclude
+g++ -o exe2 obj/SolveMain2.o obj/Normals.o obj/BlackScholesFormulas.o obj/BSCallTwo.o -Iinclude

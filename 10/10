@@ -1,0 +1,6 @@
+g++ -c -o obj/PayFactoryMain.o PayFactoryMain.cpp -Iinclude
+g++ -c -o obj/PayOff3.o PayOff3.cpp -Iinclude
+g++ -c -o obj/PayOffBridge.o PayOffBridge.cpp -Iinclude
+g++ -c -o obj/PayOffFactory.o PayOffFactory.cpp -Iinclude
+g++ -c -o obj/PayOffRegistration.o PayOffRegistration.cpp -Iinclude
+g++ -o exe obj/PayFactoryMain.o obj/PayOff3.o obj/PayOffBridge.o obj/PayOffFactory.o obj/PayOffRegistration.o -Iinclude

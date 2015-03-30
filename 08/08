@@ -1,0 +1,13 @@
+g++ -c -o obj/TreeMain.o TreeMain.cpp -Iinclude
+g++ -c -o obj/PayOff3.o PayOff3.cpp -Iinclude
+g++ -c -o obj/PayOffBridge.o PayOffBridge.cpp -Iinclude
+g++ -c -o obj/Parameters.o Parameters.cpp -Iinclude
+g++ -c -o obj/Arrays.o Arrays.cpp -Iinclude
+g++ -c -o obj/Normals.o Normals.cpp -Iinclude
+g++ -c -o obj/TreeProducts.o TreeProducts.cpp -Iinclude
+g++ -c -o obj/TreeAmerican.o TreeAmerican.cpp -Iinclude
+g++ -c -o obj/TreeEuropean.o TreeEuropean.cpp -Iinclude
+g++ -c -o obj/BinomialTree.o BinomialTree.cpp -Iinclude
+g++ -c -o obj/BlackScholesFormulas.o BlackScholesFormulas.cpp -Iinclude
+g++ -c -o obj/PayOffForward.o PayOffForward.cpp -Iinclude
+g++ -o exe obj/TreeMain.o obj/PayOff3.o obj/PayOffBridge.o obj/Parameters.o obj/Arrays.o obj/Normals.o obj/TreeProducts.o obj/TreeAmerican.o obj/TreeEuropean.o obj/BinomialTree.o obj/BlackScholesFormulas.o obj/PayOffForward.o -Iinclude

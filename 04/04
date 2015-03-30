@@ -1,0 +1,21 @@
+g++ -c -o obj/VanillaMain1.o VanillaMain1.cpp -Iinclude
+g++ -c -o obj/PayOff2.o PayOff2.cpp -Iinclude
+g++ -c -o obj/Random1.o Random1.cpp -Iinclude
+g++ -c -o obj/SimpleMC3.o SimpleMC3.cpp -Iinclude
+g++ -c -o obj/DoubleDigital.o DoubleDigital.cpp -Iinclude
+g++ -c -o obj/Vanilla1.o Vanilla1.cpp -Iinclude
+g++ -o exe1 obj/VanillaMain1.o obj/PayOff2.o obj/Random1.o obj/SimpleMC3.o obj/DoubleDigital.o obj/Vanilla1.o -Iinclude
+g++ -c -o obj/VanillaMain2.o VanillaMain2.cpp -Iinclude
+g++ -c -o obj/PayOff3.o PayOff3.cpp -Iinclude
+g++ -c -o obj/SimpleMC4.o SimpleMC4.cpp -Iinclude
+g++ -c -o obj/Vanilla2.o Vanilla2.cpp -Iinclude
+g++ -o exe2 obj/VanillaMain2.o obj/PayOff3.o obj/Random1.o obj/SimpleMC4.o obj/Vanilla2.o -Iinclude
+g++ -c -o obj/VanillaMain3.o VanillaMain3.cpp -Iinclude
+g++ -c -o obj/SimpleMC5.o SimpleMC5.cpp -Iinclude
+g++ -c -o obj/Vanilla3.o Vanilla3.cpp -Iinclude
+g++ -c -o obj/PayOffBridge.o PayOffBridge.cpp -Iinclude
+g++ -o exe3 obj/VanillaMain3.o obj/PayOff3.o obj/Random1.o obj/SimpleMC5.o obj/Vanilla3.o obj/PayOffBridge.o -Iinclude
+g++ -c -o obj/VanillaMain4.o VanillaMain4.cpp -Iinclude
+g++ -c -o obj/SimpleMC6.o SimpleMC6.cpp -Iinclude
+g++ -c -o obj/Parameters.o Parameters.cpp -Iinclude
+g++ -o exe4 obj/VanillaMain4.o obj/PayOff3.o obj/Random1.o obj/SimpleMC6.o obj/Vanilla3.o obj/PayOffBridge.o obj/Parameters.o -Iinclude

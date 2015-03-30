@@ -1,0 +1,10 @@
+g++ -c -o obj/SimpleMCMain3.o SimpleMCMain3.cpp -Iinclude
+g++ -c -o obj/PayOff2.o PayOff2.cpp -Iinclude
+g++ -c -o obj/Random1.o Random1.cpp -Iinclude
+g++ -c -o obj/SimpleMC2.o SimpleMC2.cpp -Iinclude
+g++ -o exe1 obj/SimpleMCMain3.o obj/PayOff2.o obj/Random1.o obj/SimpleMC2.o -Iinclude
+g++ -c -o obj/SimpleMCMain4.o SimpleMCMain4.cpp -Iinclude
+g++ -o exe2 obj/SimpleMCMain4.o obj/PayOff2.o obj/Random1.o obj/SimpleMC2.o -Iinclude
+g++ -c -o obj/SimpleMCMain5.o SimpleMCMain5.cpp -Iinclude
+g++ -c -o obj/DoubleDigital.o DoubleDigital.cpp -Iinclude
+g++ -o exe3 obj/SimpleMCMain5.o obj/DoubleDigital.o obj/PayOff2.o obj/Random1.o obj/SimpleMC2.o -Iinclude
